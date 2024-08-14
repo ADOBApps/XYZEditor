@@ -1,0 +1,8 @@
+Package: XYZEditor
+Section: universe/education
+Version: 1.1
+Maintainer: Acxel Orozco <acxel.orozco@correounivalle.edu.co>
+Architecture: all
+Pre-Depends: wx3.0-headers, wx-common
+Build-Depends: wx3.0-headers, wx-common, libwxgtk3.0, libwxgtk3.0-dev, libwxbase3.0-dev, jmol, libwxbase3.0, 
+Description: Metal System Builder for Molecular Dynamics Simulations implements a completed GUI for OpenMD

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+function config_bash {
+	declare link="/usr/bin/XYZEditor"
+	if [[ -f $link ]];then
+		echo "Link exists"
+	else
+		ln -s "/usr/local/XYZEditor/bin/XYZEditor" "/usr/bin/XYZEditor"
+		# chmod u+x "/usr/local/XYZEditor/bin/main.py" "/usr/bin/XYZEditor"
+		echo "Link created"
+	fi
+	export PATH
+	# chmod -R 777 "/usr/local/XYZEditor/"
+	chmod u+x "/usr/share/applications/XYZEditor.desktop"
+	echo "XYZEditor INSTALLED"
+	pwd
+	echo ""
+}
+
+function usage {
+cat << EOF
+=> To run
+
+	Usage::  XYZEditor
+EOF
+}
+# 
+config_bash
+usage

@@ -1,0 +1,29 @@
+{
+	"ForceField": [
+		"ADOB_Hg",
+		"ADOBMnM3",
+		"ADOBMnM3EAM",
+		"ADOBMnM3LJ",
+		"ADOBMnM3SC",
+		"ADOBMnM6EAM",
+		"ADOBMnMDREAM",
+		"ADOB_GASHg",
+		"Air",
+		"Amber",
+		"Amber.99",
+		"BKS",
+		"BKS-modified",
+		"CLAYFF",
+		"DR-EAM",
+		"DUFF",
+		"EAM",
+		"FQ",
+		"graphene",
+		"Lipid",
+		"MnM",
+		"SC",
+		"SDK",
+		"SSDQ",
+		"Water"
+	]
+}

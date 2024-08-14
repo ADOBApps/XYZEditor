@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=XYZEditor
+Comment=Metal System Builder for Molecular Dynamics Simulations implements GUI for OpenMD
+Exec=/usr/bin/./XYZEditor
+MimeType=text/plain
+Icon=/usr/local/XYZEditor/bin/Resources/Images/icon.png
+Categories=Education
+Terminal=false
+Hidden=false
+NoDisplay=false
+Encoding=UTF-8
+Type=Application
+StartupNotify=true

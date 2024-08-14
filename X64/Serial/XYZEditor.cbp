@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="XYZEditor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="XYZEditor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="/mnt/d/Onedrive-Univalle/OneDrive - correounivalle.edu.co/University/Investigation/DEV/OpenMD/Tools/XYZEditor/X64/Serial/.objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Wall" />
+			<Add option="-fopenmp" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="DumpFile.cpp" />
+		<Unit filename="DumpFile.h" />
+		<Unit filename="XYZEditorApp.cpp" />
+		<Unit filename="XYZEditorApp.h" />
+		<Unit filename="XYZEditorMain.cpp" />
+		<Unit filename="XYZEditorMain.h" />
+		<Unit filename="cppglue.cpp" />
+		<Unit filename="cppglue.h" />
+		<Unit filename="json.hpp" />
+		<Unit filename="wxsmith/XYZEditorframe.wxs" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="XYZEditorApp.cpp" main="XYZEditorFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/XYZEditorframe.wxs" src="XYZEditorMain.cpp" hdr="XYZEditorMain.h" fwddecl="0" i18n="1" name="XYZEditorFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

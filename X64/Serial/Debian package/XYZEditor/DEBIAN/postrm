@@ -1,0 +1,9 @@
+#!/bin/bash
+
+function config_bash {
+	rm -r "/usr/local/XYZEditor"
+	echo "XYZEditor UNINSTALLED"
+}
+
+# 
+config_bash
